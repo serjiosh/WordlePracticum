@@ -1,0 +1,23 @@
+# Wordle Practicum
+
+Реализация игры Wordle на Java для Яндекс Практикум.
+
+## Описание
+
+Игра Wordle - это игра в слова, где нужно угадать загаданное слово из 5 букв за 6 попыток.
+
+## Запуск
+
+```bash
+javac src/*.java
+java -cp src Wordle
+```
+
+## Структура проекта
+
+- `Wordle.java` - главный класс игры
+- `WordleGame.java` - класс игрового процесса
+- `WordleDictionary.java` - класс для работы со словарём
+- `WordleDictionaryLoader.java` - загрузчик словаря из файла
+- `russian_nouns.txt` - файл словаря
+
